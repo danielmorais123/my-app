@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media screen and (max-width: 845px) {
+    .right_content{
+      display: none !important;
+    }
+}
+
+@media screen and (max-width: 567px) {
+  .left_content{
+    border:none !important;
+  }
+  .content{
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+}
+
+.right_content{
+  display: flex;
+  flex-direction: column;
+  align-items: 'center';
+  justify-content: 'center';
+}
